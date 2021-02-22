@@ -29,7 +29,7 @@ KANGING_STR = [
 ]
 
 
-@register(outgoing=True, pattern=r"^\.(?:tikel|kang)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:curi|kang)\s?(.)?")
 async def kang(args):
     user = await bot.get_me()
     if not user.username:
