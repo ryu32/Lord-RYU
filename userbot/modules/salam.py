@@ -35,6 +35,6 @@ CMD_HELP.update({
     "salam":
     "`.P`\
 \nUsage: Untuk Memberi salam.\
-\n\n`.L`\
+\n\n`.j`\
 \nUsage: Untuk Menjawab Salam."
 })
