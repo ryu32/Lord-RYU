@@ -7,7 +7,7 @@ from userbot import bot, TEMP_DOWNLOAD_DIRECTORY, CMD_HELP
 
 @register(outgoing=True, pattern=r'^.kekuatan(:? |$)([1-8])?')
 async def _(fry):
-    await fry.edit("`Lord Mengaktifkan Kekuatan goku:v...👾`")
+    await fry.edit("`Lord Mengaktifkan Kekuatan goku kamehameha...👾`")
     level = fry.pattern_match.group(2)
     if fry.fwd_from:
         return
@@ -131,6 +131,6 @@ async def _(fry):
 
 CMD_HELP.update({
     "kekuatan":
-    "`.kameha` or `.kameha` [level(1-8)]"
+    "`.kekuatan` or `.goku` [level(1-8)]"
     "\nUsage: untuk mengubah foto/sticker."
 })
