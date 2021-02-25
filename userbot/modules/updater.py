@@ -91,14 +91,14 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         else:
-            await event.edit("`Lord-Userbot Berhasil Di Deploy!\n" "Restarting, Mohon Menunggu Lord.....`")
+            await event.edit("`Lord-RYU Berhasil Di Deploy!\n" "Restarting, Mohon Menunggu Kawan.....`")
             await asyncio.sleep(15)
             await event.delete()
 
         if BOTLOG:
             await event.client.send_message(
                 BOTLOG_CHATID, "#BOT \n"
-                "`Lord-Userbot Berhasil Di Update`")
+                "`Lord-RYU Berhasil Di Update`")
 
     else:
         await event.edit('`[HEROKU]:'
@@ -126,7 +126,7 @@ async def update(event, repo, ups_rem, ac_br):
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "#BOT \n"
-            "**Lord-Userbot Telah Di Perbarui ツ**")
+            "**✵Lord-RYU Telah Di Perbarui kawan ツ**")
         await asyncio.sleep(100)
         await event.delete()
 
@@ -188,7 +188,7 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f'\n**✣ Lord-Userbot Sudah Versi Terbaru**\n')
+            f'\n**✵ Lord-Userbot Sudah Versi Terbaru**\n')
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
