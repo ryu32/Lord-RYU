@@ -234,9 +234,9 @@ async def upstream(event):
 CMD_HELP.update({
     'update':
     ".update"
-    "\nUsage: Untuk Melihat Pembaruan Terbaru Lord-Userbot."
+    "\nUsage: Untuk Melihat Pembaruan Terbaru Lord-RYU."
     "\n\n.update now"
-    "\nUsage: Memperbarui Lord-Userbot."
+    "\nUsage: Memperbarui Lord-RYU."
     "\n\n.update deploy"
-    "\nUsage: Memperbarui Lord-Userbot Dengan Cara Deploy Ulang."
+    "\nUsage: Memperbarui Lord-RYU Dengan Cara Deploy Ulang."
 })
