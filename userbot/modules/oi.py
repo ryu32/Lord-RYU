@@ -51,7 +51,7 @@ async def typewriter(typew):
 
 
 CMD_HELP.update({
-    "KIW":
-    ">`.kiw`"
+    "oi":
+    ">`.kiw`; `.sayang` ; `.semangat` ; `.roif`\"
     "\nUsage: lihat sendiri."
 })
