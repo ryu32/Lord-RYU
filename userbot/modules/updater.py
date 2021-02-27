@@ -115,11 +115,11 @@ async def update(event, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
-    await event.edit('**✥ Lord-RYU** `Berhasil Di Update!`')
+    await event.edit('**✥ Lord-ryu** `Berhasil Di Update!`')
     await asyncio.sleep(1)
-    await event.edit('**✥ Lord-RYU** `Di Restart....`')
+    await event.edit('**✥ Lord-ryu** `Di Restart....`')
     await asyncio.sleep(1)
-    await event.edit('`Mohon Menunggu Beberapa Detik Lord ツ`')
+    await event.edit('`Mohon Menunggu Beberapa Detik Kawan ツ`')
     await asyncio.sleep(10)
     await event.delete()
 
@@ -194,7 +194,7 @@ async def upstream(event):
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f'**✣ Pembaruan Untuk Lord-Userbot [{ac_br}]:\n\n✣ Pembaruan:**\n`{changelog}`'
+        changelog_str = f'**✣ Pembaruan Untuk Lord-ryu [{ac_br}]:\n\n✣ Pembaruan:**\n`{changelog}`'
         if len(changelog_str) > 4096:
             await event.edit("`Changelog Terlalu Besar, Lihat File Untuk Melihatnya.`")
             file = open("output.txt", "w+")
@@ -208,7 +208,7 @@ async def upstream(event):
             remove("output.txt")
         else:
             await event.edit(changelog_str)
-        return await event.respond('**Perintah Untuk Update Lord RYU**\n >`.update now`\n >`.update deploy`\n\n__Untuk Meng Update Fitur Terbaru Dari Lord RYU.__')
+        return await event.respond('**Perintah Untuk Update Lord ryu**\n >`.update now`\n >`.update deploy`\n\n__Untuk Meng Update Fitur Terbaru Dari Lord ryu.__')
 
     if force_update:
         await event.edit(
@@ -234,9 +234,9 @@ async def upstream(event):
 CMD_HELP.update({
     'update':
     ".update"
-    "\nUsage: Untuk Melihat Pembaruan Terbaru Lord-RYU."
+    "\nUsage: Untuk Melihat Pembaruan Terbaru Lord-ryu."
     "\n\n.update now"
-    "\nUsage: Memperbarui Lord-RYU."
+    "\nUsage: Memperbarui Lord-ryu."
     "\n\n.update deploy"
-    "\nUsage: Memperbarui Lord-RYU Dengan Cara Deploy Ulang."
+    "\nUsage: Memperbarui Lord-ryu Dengan Cara Deploy Ulang."
 })
