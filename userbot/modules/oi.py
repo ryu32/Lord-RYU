@@ -46,5 +46,12 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("`Mau Gak Jadi Pacar Aku:v?`")
     sleep(1)
-    await typew.edit("`I LOVE YOU 💞`")
+    await typew.edit("`xixixixix`")
 # Create by myself @localheart
+
+
+CMD_HELP.update({
+    "KIW":
+    ">`.kiw`"
+    "\nUsage: lihat sendiri."
+})
