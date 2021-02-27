@@ -50,7 +50,3 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
-CMD_HELP.update({
-    "oi":
-    ">`.kiw`"
-    "\nUsage: lihat sendiri."
