@@ -399,8 +399,8 @@ with bot:
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
-                    text="{}\n\n**🎮 Jumlah Modul Yang Tersedia:** `{}`\n               \n**❃ Daftar Modul Lord Userbot:** \n".format(
-                        "**♜ Lord-Userbot**",
+                    text="{}\n\n**🎮 Jumlah Modul Yang Tersedia:** `{}`\n               \n**✵ Daftar Modul Lord Userbot:** \n".format(
+                        "**♜ Lord-RYU**",
                         len(dugmeler),
                     ),
                     buttons=buttons,
