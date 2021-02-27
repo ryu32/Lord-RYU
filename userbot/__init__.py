@@ -386,7 +386,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("Lord-Userbot, Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/Zora24/Lord-Userbot.git)")
+                await event.reply("Lord-Userbot, Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/ryu32/Lord-RYU.git)")
             else:
                 await event.reply(f"`Hai Lord {ALIVE_NAME}\n\nApa Kabarmu?`")
 
