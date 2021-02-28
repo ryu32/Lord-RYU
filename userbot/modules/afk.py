@@ -62,10 +62,10 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"**♜ AFK!**\n**{ALIVE_NAME} Telah AFK**\
+        await afk_e.edit(f"**♜ AFK!**\n**ryu Telah AFK**\
         \n➟ **Alasan:** `{string}`")
     else:
-        await afk_e.edit("**♜ AFK!**\n**{ALIVE_NAME} Telah AFK**")
+        await afk_e.edit("**♜ AFK!**\n**ryu Telah AFK**")
     if user.last_name:
         await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + " 〔OFF〕 "))
     else:
@@ -98,7 +98,7 @@ async def type_afk_is_not_true(notafk):
     afk_end = back_alive.replace(microsecond=0)
     if ISAFK:
         ISAFK = False
-        msg = await notafk.respond("**{ALIVE_NAME} Telah Kembali!**")
+        msg = await notafk.respond("**ryu Telah Kembali!**")
         time.sleep(3)
         await msg.delete()
         await notafk.client(UpdateProfileRequest(first_name=user.first_name, last_name=last1))
