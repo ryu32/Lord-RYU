@@ -71,14 +71,3 @@ async def koc(e):
         await e.edit("<TAMAT>")
         
        
-CMD_HELP.update({
-    "ranim":
-    "`.halo`\
-    \nUsage: kenalan.\
-    \n\n`.ldr`\
-    \nUsage: pacaran onlen.\
-    \n\n`.g`\
-    \nUsage: ghosting.\
-    \n\n`.kasihan`\
-    \nUsage: xixixixi.\
-})
