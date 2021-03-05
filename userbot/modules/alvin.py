@@ -499,13 +499,67 @@ async def koc(e):
         await e.edit("tempat gabut")
         await e.edit("xixixix")
         await e.edit("<TAMAT>")
-        
+ 
+
+@register(outgoing=True, pattern='^.gombal(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("`yahhahah`")
+    sleep(1)
+    await typew.edit("`kasian`")
+    sleep(1)
+    await typew.edit("`jadi`")
+    sleep(1)
+    await typew.edit("`bahan`")
+    sleep(1)
+    await typew.edit("`gabut`")
+    sleep(1)
+    await typew.edit("`dia`")
+    sleep(1)
+    await typew.edit("`xixixixi`")
+    sleep(1)
+    await typew.edit("`mana masih muda`")
+    sleep(1)
+    await typew.edit("`Aoakaowkowkw`")
+    sleep(1)
+    await typew.edit("`kasihan`")
+    sleep(1)
+    await typew.edit("`udah`")
+    sleep(1)
+    await typew.edit("`virtual`")
+    sleep(1)
+    await typew.edit("`masih`")
+    sleep(1)
+    await typew.edit("`berharap`")
+    sleep(1)
+    await typew.edit("`dia serius:v`")
+    sleep(1)
+    await typew.edit("`padahal`")
+    sleep(1)
+    await typew.edit("`cuma`")
+    sleep(1)
+    await typew.edit("`tempat gabut`")
+    sleep(1)
+    await typew.edit("`xixixix`")
+    sleep(1)
+    await typew.edit("`TAMAT`")
+# Create by myself @localheart
+
 CMD_HELP.update({
     "gabut":
     "`.gabut` ; `.dino`\
     \nUsage: ntahlah gabut doang.\
     \n\n`.gombal`\
     \nUsage: buat bercanda\
+    \n\n`.halo`\
+    \nUsage: untuk kenalan.\
+    \n\n`.ldr`\
+    \nUsage: pacaran onlen.\
+    \n\n`.g`\
+    \nUsage: ghosting.\
+    \n\n`.kasihan`\
+    \nUsage: mengsedih.\
     \n\n`.cinta`\
     \nUsage: mengirim cintamu ke seseorang.\
     \n\n`.sayang`\
