@@ -476,31 +476,6 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
-@register(outgoing=True, pattern="^.cih$")
-async def koc(e):
-    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("yahhahah")
-        await e.edit("kasian")
-        await e.edit("jadi")
-        await e.edit("bahan")
-        await e.edit("gabut")
-        await e.edit("dia")
-        await e.edit("xixixixi")
-        await e.edit("mana masih muda")
-        await e.edit("Aoakaowkowkw")
-        await e.edit("kasihan")
-        await e.edit("udah")
-        await e.edit("virtual")
-        await e.edit("masih")
-        await e.edit("berharap")
-        await e.edit("dia serius:v")
-        await e.edit("padahal")
-        await e.edit("cuma")
-        await e.edit("tempat gabut")
-        await e.edit("xixixix")
-        await e.edit("<TAMAT>")
- 
-
 @register(outgoing=True, pattern='^.kasihan(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
