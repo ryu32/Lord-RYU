@@ -476,7 +476,7 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
-@register(outgoing=True, pattern="^.kasihan$")
+@register(outgoing=True, pattern="^.cih$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("yahhahah")
@@ -501,7 +501,7 @@ async def koc(e):
         await e.edit("<TAMAT>")
  
 
-@register(outgoing=True, pattern='^.gombal(?: |$)(.*)')
+@register(outgoing=True, pattern='^.kasihan(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
