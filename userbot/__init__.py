@@ -399,7 +399,7 @@ with bot:
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
-                    text="{}\n\n**🎮 Jumlah Modul Yang Tersedia:** `{}`\n               \n**✵ Daftar Modul Lord Userbot:** \n".format(
+                    text="{}\n\n**🎮 Jumlah Modul Yang Tersedia:** `{}`\n               \n**✵ Daftar Modul Lord ryu:** \n".format(
                         "**♜ Lord-RYU**",
                         len(dugmeler),
                     ),
@@ -419,11 +419,11 @@ with bot:
                     buttons=[
                         [
                             custom.Button.url(
-                                "Repo Lord-Userbot",
-                                "https://github.com/Zora24/Lord-Userbot"),
+                                "Repo Lord-ryu",
+                                "https://github.com/ryu32/Lord-ryu"),
                             custom.Button.url(
                                 "Pemilik Repo",
-                                "t.me/liualvinas")],
+                                "t.me/X_Roif")],
                     ],
                     link_preview=False,
                 )
