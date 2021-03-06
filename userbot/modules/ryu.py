@@ -488,13 +488,13 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
-@register(outgoing=True, pattern='^.kiw(?: |$)(.*)')
+@register(outgoing=True, pattern='^.kasian(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
     await typew.edit("`yahhahah`")
     sleep(1)
-    await typew.edit("`kasian`")
+    await typew.edit("`kashian`")
     sleep(1)
     await typew.edit("`jadi`")
     sleep(1)
@@ -545,7 +545,7 @@ CMD_HELP.update({
     \nUsage: pacaran onlen.\
     \n\n`.g`\
     \nUsage: ghosting.\
-    \n\n`.kiw`\
+    \n\n`.kasian`\
     \nUsage: mengsedih.\
     \n\n`.cinta`\
     \nUsage: mengirim cintamu ke seseorang.\
