@@ -447,6 +447,18 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
+@register(outgoing=True, pattern='^.hai(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(3)
+    await typew.edit("`hai kamu`")
+    sleep(3)
+    await typew.edit("`boleh kenalan gk?`")
+    sleep(1)
+    await typew.edit("`xixixixi`")
+# Create by myself @localheart
+
+
 @register(outgoing=True, pattern='^.ldr(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -476,7 +488,7 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
-@register(outgoing=True, pattern='^.kasihan(?: |$)(.*)')
+@register(outgoing=True, pattern='^.kiw(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
@@ -527,13 +539,13 @@ CMD_HELP.update({
     \nUsage: ntahlah gabut doang.\
     \n\n`.gombal`\
     \nUsage: buat bercanda\
-    \n\n`.halo`\
+    \n\n`.halo` ; `.hai`\
     \nUsage: untuk kenalan.\
     \n\n`.ldr`\
     \nUsage: pacaran onlen.\
     \n\n`.g`\
     \nUsage: ghosting.\
-    \n\n`.kasihan`\
+    \n\n`.kiw`\
     \nUsage: mengsedih.\
     \n\n`.cinta`\
     \nUsage: mengirim cintamu ke seseorang.\
