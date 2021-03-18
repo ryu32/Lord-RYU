@@ -217,21 +217,22 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:lordalive|lordon)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:lord|lordon)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
-    uptime = await get_readable_time((time.time() - StartTime))
+    await get_readable_time((time.time() - StartTime))
     output = (
-        f" ** RYU-USERBOT ** \n"
-        f"**{LORD_TEKS_KUSTOM}**\n\n"
-        f"**❖ Ini GW** \n"
+        f" **┗┓RYU USERBOT┏┛** \n"
+        f"\n__**{LORD_TEKS_KUSTOM}**__\n"
+        f"**━━━━━━━━━━━━━━━━━━━━**\n"
+        f"**♛ Lord** \n"
         f" ➥ `{DEFAULTUSER}` \n"
-        f"**❖ Username** \n"
-        f" ➥ `@{user.username}` \n\n"
+        f"**♛ Username** \n"
+        f" ➥ `@{user.username}` \n"
         f"┏━━━━━━━━━━━━━━━━━━━\n"
         f"┣[• `Telethon :`Ver {version.__version__} \n"
         f"┣[• `Python   :`Ver {python_version()} \n"
-        f"┣[• `Bee Ver  :`{BOT_VER} \n"
+        f"┣[• `Bot Ver  :`{BOT_VER} \n"
         f"┣[• `Modules  :`{len(modules)} \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
@@ -259,16 +260,18 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**●▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬●**\n"
+        f"**╭═══════════════════╮**\n"
         f"     **⍟ LORD RYU ⍟** \n\n"
         f"✯ **Ini Gw**   \n   ➳ `{DEFAULTUSER}` \n"
         f"✯ **Username** \n   ➳ `@{user.username}` \n"
-        f"✯ **Telethon** \n   ➳ `Versi {version.__version__}` \n"
-        f"✯ **Python**   \n   ➳ `Versi {python_version()}` \n"
-        f"✯ **Versi Bot**\n   ➳ `{BOT_VER}` \n"
-        f"✯ **Modul**    \n   ➳ `{len(modules)}` \n\n"
+        f"┏━━━━━━━━━━━━━━━━━━━\n"
+        f"┣[• `Telethon :`Ver {version.__version__} \n"
+        f"┣[• `Python   :`Ver {python_version()} \n"
+        f"┣[• `Bot Ver  :`{BOT_VER} \n"
+        f"┣[• `Modules  :`{len(modules)} \n"
+        f"┗━━━━━━━━━━━━━━━━━━━")
         f"♞ **Repo Userbot:** [Lord-RYU](https://github.com/ryu32/Lord-Userbot)\n♞ **Pemilik:** [Roif](t.me/X_Roif)\n"
-        f"**●▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬●**")
+        f"**╰═══════════════════╯**")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
