@@ -222,21 +222,18 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     uptime = await get_readable_time((time.time() - StartTime))
     output = (
-        f" **┗┓LORD USERBOT┏┛** \n"
-        f"✘ __Lord__ \n"
-        f": `{DEFAULTUSER}` \n"
-        f"✘ __Username__ \n"
-        f": `@{user.username}` \n"
-        f"✘ __Telethon__ \n"
-        f": `Versi {version.__version__}` \n"
-        f"✘ __Python__ \n"
-        f": `Versi {python_version()}` \n"
-        f"✘ __Versi Bot__ \n"
-        f": `{BOT_VER}` \n"
-        f"✘ __Uptime__ \n"
-        f": `{uptime}` \n"
-        f"✘ __Modul__ \n"
-        f": `{len(modules)}` \n")
+        f" ** RYU-USERBOT ** \n"
+        f"**{LORD_TEKS_KUSTOM}**\n\n"
+        f"**❖ Ini GW** \n"
+        f" ➥ `{DEFAULTUSER}` \n"
+        f"**❖ Username** \n"
+        f" ➥ `@{user.username}` \n\n"
+        f"┏━━━━━━━━━━━━━━━━━━━\n"
+        f"┣[• `Telethon :`Ver {version.__version__} \n"
+        f"┣[• `Python   :`Ver {python_version()} \n"
+        f"┣[• `Bee Ver  :`{BOT_VER} \n"
+        f"┣[• `Modules  :`{len(modules)} \n"
+        f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
