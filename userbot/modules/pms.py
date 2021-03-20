@@ -27,11 +27,11 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 DEF_UNAPPROVED_MSG = (
     "╭━━━━━━━━━━━━━━━━━━━━━╮\n"
-    "    SELAMAT DATANG DI\n"
-    f"   `{ALIVE_NAME}` CHAT\n"
+    "    🔥SELAMAT DATANG DI🔥\n"
+    f"   `{DEFAULTUSER}` CHAT\n"
     "╰━━━━━━━━━━━━━━━━━━━━━╯\n\n"
 
-    f"Saya Bot Assisten `{ALIVE_NAME}`\n"
+    f"Saya Bot Assisten `{DEFAULTUSER}`\n"
     "╾─────────────────────╼\n\n"
 
     "╭━━━━━━━━━━━━━━━━━━━━━╮\n"
@@ -40,13 +40,13 @@ DEF_UNAPPROVED_MSG = (
     " Atau Saya Akan Otomatis\n"
     " Mereport & Block Kamu\n"
     " Silahkan Tungguu Sampai\n"
-    f" `{ALIVE_NAME}` Menerima Pesanmu\n"
+    f" `{DEFAULTUSER}` Menerima Pesanmu\n"
     "╰━━━━━━━━━━━━━━━━━━━━━╯\n\n"
 
     "╾─────────────────────╼\n"
-    "   ♥️♥️TERIMAKASIH ❤️♥️\n"
+    "   🔥TERIMAKASIH🔥\n"
     "─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇\n"
-    f"- ©Bot Assisten `{ALIVE_NAME}`\n"
+    f"- ©Bot Assisten `{DEFAULTUSER}`\n"
     "- Protected By Lord-ryu")
 # =================================================================
 
