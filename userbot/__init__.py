@@ -3,6 +3,7 @@
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
 # inline credit @keselekpermen69
+# Pengguna Lord-Userbot
 """ Userbot initialization. """
 
 import os
@@ -145,6 +146,9 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 
 # Youtube API key
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
+
+# untuk perintah .lord
+LORD_TEKS_KUSTOM = os.environ.get("LORD_TEKS_KUSTOM", None)
 
 # Default .alive name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
