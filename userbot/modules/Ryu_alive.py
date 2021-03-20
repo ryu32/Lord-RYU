@@ -225,12 +225,12 @@ async def amireallyalive(alive):
     await alive.edit("`I'M ALIVE!`")
     await alive.edit("⚡")
     output = (
-        f" **┗┓LORD USERBOT┏┛** \n"
+        f" **┗┓RYU USERBOT┏┛** \n"
         f"\n__**{LORD_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━**\n"
-        f"**♛ ʟᴏʀᴅ** \n"
+        f"**☆  PuNyA gW** \n"
         f" ➥ `{DEFAULTUSER}` \n"
-        f"**♛ ᴜsᴇʀɴᴀᴍᴇ** \n"
+        f"**☆  ᴜsᴇʀɴᴀᴍᴇ** \n"
         f" ➥ `@{user.username}` \n"
         f"┏━━━━━━━━━━━━━━━━━━━\n"
         f"┣[• `Telethon :`Ver {version.__version__} \n"
@@ -258,22 +258,20 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@register(outgoing=True, pattern=r"^\.(?:xalive|xon)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:ralive|ron)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**╭═══════════════════╮**\n"
-        f"     **⍟ LORD RYU ⍟** \n\n"
-        f"✯ **Ini Gw**   \n   ➳ `{DEFAULTUSER}` \n"
-        f"✯ **Username** \n   ➳ `@{user.username}` \n"
-        f"┏━━━━━━━━━━━━━━━━━━━\n"
-        f"┣[• `Telethon :`Ver {version.__version__} \n"
-        f"┣[• `Python   :`Ver {python_version()} \n"
-        f"┣[• `Bot Ver  :`{BOT_VER} \n"
-        f"┣[• `Modules  :`{len(modules)} \n"
-        f"┗━━━━━━━━━━━━━━━━━━━")
-        f"♞ **Repo Userbot:** [Lord-RYU](https://github.com/ryu32/Lord-Userbot)\n♞ **Pemilik:** [Roif](t.me/X_Roif)\n"
+        f"     **⍟ RYU USERBOT ⍟** \n\n"
+        f"✯ **INi gW**     \n   ➳ `{DEFAULTUSER}` \n"
+        f"✯ **Username**   \n   ➳ `@{user.username}` \n"
+        f"┣[• **Telethon** \n   ➳ `Versi {version.__version__}` \n"
+        f"┣[• **Python**   \n   ➳ `Versi {python_version()}` \n"
+        f"┣[• **Versi Bot**\n   ➳ `{BOT_VER}` \n"
+        f"┣[• **Modul**    \n   ➳ `{len(modules)}` \n\n"
+        f"♞  **Repo Userbot:** [Lord-Userbot](https://github.com/ryu32/Lord-Userbot)\n♞  **Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n✥ **Pemilik:** [ROIF](t.me/X_Roif)\n"
         f"**╰═══════════════════╯**")
     if ALIVE_LOGO:
         try:
