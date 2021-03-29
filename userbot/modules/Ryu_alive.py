@@ -271,7 +271,7 @@ async def amireallyalive(alive):
         f"✯ **Python**   \n   ➳ `Versi {python_version()}` \n"
         f"✯ **Versi Bot**\n   ➳ `{BOT_VER}` \n"
         f"✯ **Modul**    \n   ➳ `{len(modules)}` \n\n"
-        f"♞  **Repo Userbot:** [Lord-Userbot](https://github.com/ryu32/Lord-Userbot)\n♞  **Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n✥ **Pemilik:** [ROIF](t.me/X_Roif)\n"
+        f"♞  **RYU Userbot:** [Lord-Userbot](https://github.com/ryu32/Lord-Userbot)\n♞  **Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n✥ **Pemilik:** [ROIF](t.me/X_Roif)\n"
         f"**╰═══════════════════╯**")
     if ALIVE_LOGO:
         try:
