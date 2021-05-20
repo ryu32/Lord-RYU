@@ -1,6 +1,6 @@
 {
   "name": "Lord-Userbot",
-  "description": "[Lord-Userbot] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "description": "[Ryu-Userbot] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
   "logo": "https://telegra.ph/file/62dc59b2013a48f9cc8f3.jpg",
   "keywords": [
     "telegram",
@@ -9,8 +9,8 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Zora24/Lord-Userbot",
-  "telegram": "https://t.me/liualvinas",
+  "repository": "https://github.com/ryu32/Lord-Userbot",
+  "telegram": "https://t.me/X_Roif",
   "success_url": "https://t.me/liualvinasmahaputra",
   "stack": "container",
   "env": {
