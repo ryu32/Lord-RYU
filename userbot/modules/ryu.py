@@ -557,6 +557,8 @@ CMD_HELP.update({
     \nUsage: pacaran onlen.\
     \n\n`.g`\
     \nUsage: ghosting.\
+    \n\n`.tt`\
+    \nUsage: lomthe.\
     \n\n`.kasian`\
     \nUsage: mengsedih.\
     \n\n`.cinta`\
