@@ -533,6 +533,18 @@ async def typewriter(typew):
     await typew.edit("`TAMAT`")
 # Create by myself @localheart
 
+
+@register(outgoing=True, pattern='^.tt(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(3)
+    await typew.edit("`tt kamu gede banget`")
+    sleep(3)
+    await typew.edit("`Pasti pink`")
+    sleep(1)
+    await typew.edit("`Canda 99`")
+# Create by myself @localheart
+
 CMD_HELP.update({
     "gabut":
     "`.gabut` ; `.dino`\
