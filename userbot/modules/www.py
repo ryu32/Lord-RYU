@@ -47,11 +47,11 @@ async def pingme(pong):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     await pong.edit("🗿")
-    await pong.edit("__**RYU🗿**__")
-    await pong.edit("__**RY🗿U**__")
-    await pong.edit("__**RY🗿U**__")
-    await pong.edit("__**R🗿YU**__")
-    await pong.edit("__**🗿RYU🗿**__")
+    await pong.edit("__**ᴘɪɴɢ**__")
+    await pong.edit("__**ᴘɪɴɢ**__")
+    await pong.edit("__**ᴘɪɴɢ**__")
+    await pong.edit("__**ᴘɪɴɢ**__")
+    await pong.edit("__**🗿ᴘɪɴɢ🗿**__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**🗿 ʀʏᴜ ᴘɪɴɢ🗿**\n"
@@ -175,7 +175,7 @@ async def pingme(pong):
     await pong.edit("𖣘 **Ping!**\n`%sms`" % (duration))
 
 CMD_HELP.update(
-    {"ping": "`.ping` ; `.rping` ; `.xping` ; `.sping`\
+    {"ping": "`.ping` ; `.rping` ; `.xping` ; `.lping`\
     \nUsage: Untuk menunjukkan ping bot.\
     \n\n`.speed`\
     \nUsage: Untuk menunjukkan kecepatan.\
