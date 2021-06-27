@@ -70,5 +70,4 @@ CMD_HELP.update({
 \nUsage: Dapatkan applikasi mod\
 \n\n`.wp <teks> <username/ID>`\
 \nUsage: Berikan pesan rahasia"})
-\n\n`.rgame`\
-\nUsage: Cari game seru"})
+
