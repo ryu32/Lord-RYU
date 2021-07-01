@@ -44,12 +44,16 @@ async def get_readable_time(seconds: int) -> str:
 @register(outgoing=True, pattern="^.lping$")
 async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """
-    uptime = await get_readable_time((time.time() - StartTime))
+    await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     await pong.edit("__Connecting.__")
+    await pong.edit("__Connecting..__")
+    await pong.edit("__Connecting...__")
     await pong.edit("__Connecting....__")
-    await pong.edit("🗿")
-    await asyncio.sleep(2)
+    await pong.edit("__Connecting.__")
+    await pong.edit("__Connecting..__")
+    await pong.edit("__Connecting...__")
+    await pong.edit("__Connecting....__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**🗿RYU-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🗿**\n\n"
